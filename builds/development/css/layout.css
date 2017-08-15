@@ -1,0 +1,18 @@
+.wrap {
+    width: 100%;
+    overflow:auto;
+}
+
+.fleft {
+    float:left; 
+    width: 50%;
+    height: 800px;
+	background:lightblue;
+}
+
+.fright {
+	float: right;
+    width: 50%;
+    height: 800px;
+    background:#2C3E52;
+}
