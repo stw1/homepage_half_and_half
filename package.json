@@ -1,0 +1,19 @@
+{
+  "name": "stwong.com_homepage",
+  "version": "1.0.0",
+  "description": "Main page for stwong.com",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stw1/homepage_half_and_half.git"
+  },
+  "author": "Stephen Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stw1/homepage_half_and_half/issues"
+  },
+  "homepage": "https://github.com/stw1/homepage_half_and_half#readme"
+}
