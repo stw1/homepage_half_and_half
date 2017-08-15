@@ -1,18 +1,30 @@
-.wrap {
+html,
+body,
+.full-screen {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+
+.flex-container {
+    display: flex;
     width: 100%;
-    overflow:auto;
+    height: 100%;
+    max-height: 100%;
 }
-
-.fleft {
-    float:left; 
-    width: 50%;
-    height: 800px;
-	background:lightblue;
+.left-container {
+    flex: 1 1 auto;
+    min-height: 100%;
+    max-width: 50%;
+    background: #0BDA51;
 }
-
-.fright {
-	float: right;
-    width: 50%;
-    height: 800px;
-    background:#2C3E52;
+.right-container {
+    flex: 1 1 auto;
+    height: 100%;
+    min-height: 100%;
+    max-width: 50%;
+    background: lightblue;
 }
